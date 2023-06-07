@@ -63,7 +63,7 @@ begin
          when "101" => return FIVE;
          when "110" => return SIX;
          when "111" => return SEVEN;
-			when others => return OFF;
+         when others => return OFF;
    end case;
 end function;
 end package body;
